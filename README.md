@@ -1,0 +1,1 @@
+# Felho_alapu_IoT_es_Big_Data_platformok
