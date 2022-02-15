@@ -1,4 +1,7 @@
 # Felho_alapu_IoT_es_Big_Data_platformok
+követelmény: 
+- 7. hét végig egy téma bejelentő
+
 ## ea1 - Big Data and Hadoop basics
 > **Big Data**
 > - massive volume of both structured, semi-structured and unstructured different type of data that has the potential to be mined for valuable information
@@ -176,3 +179,28 @@ for social networks and certain e-commerce operations, this worldwide synchronou
 > - Explain at least three of the drawbacks of sharding!
 > - How would you set the NWR parameters in order to ensure that the value(s) of last write operation can be accessed during the upcoming read operations?
 
+## gyak2
+vm: https://ubuntu.com/download/server
+
+- client: `docker build` `docker pull` `docker run`
+- docker host: futtatja a daemon által létrehozott rendszerű konténert
+- registry: daemonok beállítják az imaget
+
+![docker](https://containerjournal.com/wp-content/uploads/2021/12/Docker-Architecture.png)
+
+docker hub imagek: https://hub.docker.com/search?image_filter=official&type=image
+
+![docker vs containers](https://images.contentstack.io/v3/assets/blt300387d93dabf50e/bltb6200bc085503718/5e1f209a63d1b6503160c6d5/containers-vs-virtual-machines.jpg)
+
+***ha rootként privilegizált módban futtatjuk a usert akkor a kinti rendszerhez is hozzáfér => read only fájlhozzáférés megoldás lehet***
+
+![docker fájlrendszere](https://docs.docker.com/storage/images/types-of-mounts-volume.png)
+
+
+10.0.2.15/24
+user 
+Almafa123
+
+10.0.2.15/24
+10.0.2.0/24
+10.0.2.2
