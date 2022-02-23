@@ -204,3 +204,42 @@ Almafa123
 10.0.2.15/24
 10.0.2.0/24
 10.0.2.2
+
+# GY3
+**Beadandóról** 
+- dokumentáció 
+- prezentáció
+
+## Docker architecture 
+Minden egyes változatás után új réteg a képfájlon 
+
+Kötetek hosszú távú tárolásra jók 
+
+Docker volume 
+
+Portman Docker helyett mint freeware megoldás. 
+
+## Elosztott működés 
+> több erőforrás csoportba szervezve is képes kiadni a nekünk szükséges erőforrást 
+>
+> erre jó a Kubernetees vagy Docker swarm - > clusterek hozhatóak létre 
+>
+>. Swarmban a titkosítás könnyebb 
+
+Nginx szolgáltatás  -> minden állomáson kiosztunk egy replikát; belső kommunikáció `tls`en zajlik. 
+Managerek egymás közt leadert választanak, a leaderek leaderét a leaderek választják. 
+
+Node balancerrel is rendelkeznek, node vagy cluster portot is megadhatunk. Let's encrypt szolgáltatása is használható. 
+
+## NoSQL adatbázis 
+- oszlop - idősoros adat
+- gráf alapú - kapcsolatok 
+- dokumentum tároló - mongo db
+
+CAP tétel 
+- rendelkezésre állás 
+- konzisztencia
+- partíció tolerálás
+
+
+
