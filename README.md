@@ -241,5 +241,30 @@ CAP tétel
 - konzisztencia
 - partíció tolerálás
 
+# Adattárolás
+## NoSQL adatbázis
+- skálázhatóság
+- sok elérhető típusú adatbázis
+- változatos adatstruktúrák
+- objektum alapú adattárolás
+
+![CAP tétel](https://blog.fps.hu/content/images/2017/04/cap-tetel.png)
+
+```Shell
+docker run --name some-cassandra --network some-network -d cassandra:3.11
+docker exec -it some-cassandra bash
+cqlsh -u cassandra
+```
+
+# monitorozás
+## netdata
+https://learn.netdata.cloud/docs
+```
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
+```
+alert manager:
+https://medium.com/devops-dudes/prometheus-alerting-with-alertmanager-e1bbba8e6a8e
+
+![](https://miro.medium.com/max/1120/1*wWz5vwHcBeTATvBFKGqRkA.png)
 
 
