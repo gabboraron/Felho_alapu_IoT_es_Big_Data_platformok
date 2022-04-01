@@ -267,4 +267,16 @@ https://medium.com/devops-dudes/prometheus-alerting-with-alertmanager-e1bbba8e6a
 
 ![](https://miro.medium.com/max/1120/1*wWz5vwHcBeTATvBFKGqRkA.png)
 
+# felhő tárolás
+- prometheus
+- prometheus nem tárolásra lett kitalálva
+- hosszútávú tárolási megoldások:
+  - https://thanos.io/
+  - https://github.com/VictoriaMetrics/VictoriaMetrics
+
+`docker compose up` letölti az aktuális prometheus képfájlt
+
+nincs processor specifikus információ szolgáltatás
+
+https://grafana.com/
 
