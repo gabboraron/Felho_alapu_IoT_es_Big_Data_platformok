@@ -280,3 +280,34 @@ nincs processor specifikus információ szolgáltatás
 
 https://grafana.com/
 
+## opensource szoftware fejlesztés
+
+style guide -> more readable,  docs can be generated from code, easier to maintain, easier to expand
+
+version numbering: MAJOR.MINOR.PATCH
+- MAJOR: inkompatibilis változások
+- MINOR: funkcionalitásában változik, de visszafele kompatibilis
+- PATCH: visszafelé kompatibilis verzió, bugok javítás
+
+egyéb alverziósámok hozzzáadhatóak a fejlesztés követése érdekében
+
+az első publikus elérhető verzió legyen 0.1.0
+
+[angularjs commit guideline](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+
+### travis ci
+- menetközben buildelni
+- unit testeket végez menet küzben
+
+### jenkins 
+- magát a keretrendszert felépíteni
+- self hosted
+- integrációs vagy rendszerfelépíési testek
+- release naplót tud készíteni
+- hírt tud automatizálni
+
+### gitlab bot
+- lehet self hosted
+- konténert tud létrehozni automatikusan
+
+read the docs 
