@@ -1,6 +1,8 @@
 # Felho_alapu_IoT_es_Big_Data_platformok
 követelmény: 
 - 7. hét végig egy téma bejelentő
+- zh/vizsga
+- beadanó utolsó hét előttig
 
 ## ea1 - Big Data and Hadoop basics
 > **Big Data**
@@ -205,6 +207,27 @@ Almafa123
 10.0.2.0/24
 10.0.2.2
 
+# EA3 - Document and Graph databases
+### What kind of hierarchy can be found in JSON databases?
+> The structure of a JSON object is as follows:
+> - The data are in name/value pairs
+> - Data objects are separated by commas
+> - Curly braces {} hold objects
+> - Square brackets [] hold arrays
+> Each data element is enclosed with quotes "" if it is a character, or without quotes if it is a numeric value
+
+### What is behind the scalability of MongoDB?
+> - Vertical scaling refers to increasing the processing power of a single server or cluster.
+> - Horizontal scaling, also known as scale-out, refers to bringing on additional nodes to share the load. 
+
+### Why relation databases are not good solutions for handling graph-base data?
+> - SQL lacks the syntax to easily perform graph traversal, especially traversals where the depth is unknown or unbounded.
+> - Performance degrades quickly as we traverse the graph. Each level of traversal adds significantly to query response time.
+
+### What is the main difference between MongoDB and Neo4j?
+> - While RDF is an important graph technology, the Property Graph model provides a richer model for representing complex data by associating both nodes and relationships with attributes.
+> - Neo4j implements a declarative graph query language Cypher. Cypher allows graphs to be queried using simple syntax somewhat comparable to SQL or SPARQL, but particularly ptimized for graph traversals
+
 # GY3
 **Beadandóról** 
 - dokumentáció 
@@ -310,4 +333,28 @@ az első publikus elérhető verzió legyen 0.1.0
 - lehet self hosted
 - konténert tud létrehozni automatikusan
 
-read the docs 
+[read the docs](https://readthedocs.org)
+
+# EA 4 - Column-oriented and in- memory databases
+The memory efficiency of column oriented and in-memory databases are really high. However, it has effect on (possible slow) loading data into to database.
+- In-memory databases may provide efficient database solutions but ensure the persistency of data requires special mechanisms.
+- The most widespread “swiss-knife” for Big Data, the SPARK framework overcomes the limitations of Hadoop by applying (among others) in-memory approach.
+- The various big data platforms are available under different brands but with similar services.
+
+### How can you optimize the update/insert operations into a column-oriented database?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
