@@ -52,7 +52,7 @@ követelmény:
 - note that no operating system or database platform available at the time could come close to operating across such a huge number of servers
 - Google developed a hierarchical software stack with three major layers:
   - **Google File System (GFS)**: a distributed cluster file system that allows all of the disk capacities within the Google data center to be aggregated and accessed as one massive, distributed, redundant file system.
-  - **MapReduce**: a distributed processing framework for parallelizing algorithms across large numbers of potentially unreliable servers and being capable of dealing with massive datasets. 
+  - **[MapReduce](https://www.youtube.com/watch?v=FYkSPn5ppEIy)**: a distributed processing framework for parallelizing algorithms across large numbers of potentially unreliable servers and being capable of dealing with massive datasets. 
   - **BigTable**: a nonrelational database system that uses the GFS for storage. 
 
 ![Google software architecture map reduce big table  file system server](https://fulmanski.pl/tutorials/wp-content/data/images/dataprocessing/nosql/google_stack.jpg)
