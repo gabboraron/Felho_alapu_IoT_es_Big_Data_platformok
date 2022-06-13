@@ -4,6 +4,9 @@ követelmény:
 - zh/vizsga
 - beadanó utolsó hét előttig
 
+**kapcsolódó anyagok:**
+- [Build a Heroku Clone – Provision Infrastructure Programmatically](https://www.freecodecamp.org/news/build-a-heroku-clone-provision-infrastructure-programmatically/) - on YouTube, by freeCodeCamp.org: [Code Your Own Heroku Clone with Python – Provision Infrastructure Programmatically Tutorial](https://www.youtube.com/watch?v=zhJLVFR3pE8) - on GitHub [/herocool](https://github.com/beaucarnes/herocool)
+
 ## ea1 - Big Data and Hadoop basics
 > **Big Data**
 > - massive volume of both structured, semi-structured and unstructured different type of data that has the potential to be mined for valuable information
